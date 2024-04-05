@@ -171,6 +171,6 @@ void emulate8080(State *state) {
   state->pc += 1;
 }
 
-int maint(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
   return 0;
 }
